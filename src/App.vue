@@ -18,6 +18,8 @@
     <v-content>
       <HelloWorld />
     </v-content>
+    <router-link to="/home">Go to home page</router-link>
+    <router-link to="/about">Go to about page</router-link>
   </v-app>
 </template>
 
