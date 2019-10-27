@@ -1,8 +1,8 @@
+/* eslint-disable no-unused-vars */
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
-import App from "./App.vue";
 
 Vue.use(Router);
 
@@ -12,11 +12,6 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "app",
-      component: App
-    },
-    {
-      path: "/home",
       name: "home",
       component: Home
     },
