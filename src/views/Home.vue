@@ -26,12 +26,11 @@
         </v-tooltip>
       </v-col>
     </v-row>
+    <router-link to="/about">Go to about page</router-link>
   </v-container>
 </template>
 
-
 <script>
-// <router-link to="/about">Go to about page</router-link>
 export default {
   props: {
     source: String
